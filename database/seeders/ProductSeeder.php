@@ -26,7 +26,7 @@ class ProductSeeder extends Seeder
                 'updated_at' => Carbon::now(),
             ],
             [
-                'product_name' => 'Samsung A14',
+                'product_name' => 'Samsung Smart TV',
                 'product_type' => 1,
                 'price' => 59000,
                 'created_at' => Carbon::now(),
