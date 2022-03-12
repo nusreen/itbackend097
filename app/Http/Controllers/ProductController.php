@@ -62,10 +62,10 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Product $product)
+    public function update(Request $request, $id)
     {
         //
-        $result = ['name' => 'update','payload' => $request::all()];
+        $result = ['name' => 'update','payload' => $request->all()];
         return $result;
     }
 
